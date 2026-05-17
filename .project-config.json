@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://qrE34BVXs1vHm33.5a488d52002e:2fXKpyxTNDs4l198MPb5@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/NfUqkLa5fJYKpbK43hHWPu?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://qrE34BVXs1vHm33.5a488d52002e:2fXKpyxTNDs4l198MPb5@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/NfUqkLa5fJYKpbK43hHWPu?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/111170663/NfUqkLa5fJYKpbK43hHWPu",
+    "access_key_id": "ASIAZV3A2ECZO7KF73U3",
+    "secret_access_key": "8cQ+POAasMm6x0LML7hk9uNYhlpAJ8ZRf7IXoSCU",
+    "session_token": "IQoJb3JpZ2luX2VjENz//////////wEaCXVzLWVhc3QtMSJHMEUCIBiiRYH9mJsXIU475jBi3xBWpP0idGUXxOK9YHkWKxcgAiEAqK8fnt7p1CkUd6WtdbR6tpZArEacjHrRgUGOf0NjGk4q7AMIpP//////////ARAEGgw2NjUzODYwOTg4NjYiDCX8JecOqB6TOP8XcirAA5hf9lnHB+0FoRE72s2QkYwrkB0Q2v+bC+sH1zpRYmHNrqEl3LXmyg3YT5rkfK1/MtLRTb4oOW9aQJxPT1tr0nazEJ4vpwUk+rT3xyM+oK461mu+IuK3d7xF3B1Bn1CUTZlWAEB6J8f3oweQ7/JHQfsIx8XpA2UFzGERL4lPxam+uyPDPiKaxWJMPpHNuI2CrKlGitPR5dlQuioNZ75LX6lblnIsVPlybDw9ao7c+hytZTtJyqjl+RT+79mBCSQHUMUuidYUfLnBQE1ZrEzp02D8NQllPGV+/gujYS0cy8dNdN0u1XV5dgRPe7iAHqZVONtPQomksG8iq0PZhJH3NyZT1Hv5ADX/V3NNuQk7EnUykLdcnX19eyeShav3TrM9jitUrKmY5Kh/1Ql7seGk43949+c6wY9HQJqahbHayPOqB1h3LQ7tEig611iD+3XzNMmRMp46RCtEYG2dZ3a3SA4UUaBX/nFf1xLL6IurPonARhRlGG83we9HpgkRq+MqzW48hYa0FBPpDAZmkINxcgW9orqFSr5wAscNlI8UOQubiTBefNNowAOS4JWSeVSt3hyiR9F8wTnAxJv9x3aePEAw2Mam0AY6nQGlQpJQSAKhOu9cXF7dHDelSIwW1DpOx8i8Cdb8das0zsTcZoFR6HDQyTOhJmy+ZwgsK9No+MAhRfCFtyjIO54tjP6wha2JRBnbclTQ1/Pog1/eE7TTzRXyVGHY2EuytPKHXxUO1hGdw6q0vKNRXS3+/Ic0hle/D2kBWzjMM0ib+lkj+nQWMmFHzUkIiTkgk1rB0/2n/c8MHid78q0R",
+    "expiration": "2026-05-17T23:15:36.000Z"
+  },
+  "name": "ki-energie-marktanalyse",
+  "path": "/home/ubuntu/ki-energie-marktanalyse",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "hpSPdfXbpKHM6JhZrCo9A6",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "G4q6KvrNpN36sEPUZ78GnX",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Olaf Pick",
+    "OWNER_OPEN_ID": "Gm74tEhyxkPpiTyX6ZSxTx",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "dfb88aca-3e73-4e7c-8080-19561b13bee5",
+    "VITE_APP_ID": "NfUqkLa5fJYKpbK43hHWPu",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/111170663/ifxUVgKowSIHpaNw.png",
+    "VITE_APP_TITLE": "KI-Beratungsmarkt Energiewirtschaft Deutschland",
+    "VITE_FRONTEND_FORGE_API_KEY": "oFWKGRSxapnZkSWERJMsVn",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
